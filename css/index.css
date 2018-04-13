@@ -1,0 +1,25 @@
+div {
+	height: 90px;
+	width: 90px;
+	background: red;
+	animation: bianse 6s infinite;
+	position: absolute;
+}
+@-webkit-keyframes bianse {
+
+0%   {background: red; left:0px; top:0px;}
+25%  {background: yellow; left:200px; top:0px;}
+50%  {background: blue; left:200px; top:200px;}
+75%  {background: green; left:0px; top:200px;}
+100% {background: red; left:0px; top:0px;}
+
+/*	0%{
+		background: #2003;
+	}
+	30%{
+		background: pink;
+	}
+	100%{
+		background: black;
+	}*/
+}
